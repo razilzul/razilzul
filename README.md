@@ -26,9 +26,9 @@ Outside work I ship consumer AI products solo, end to end.
 
 | Product | What it is | Receipts |
 |---|---|---|
-| **[HalalSnap](https://halalsnap.org)** | AI halal scanner. Snap any product, get a grounded verdict with per-ingredient reasoning | Both app stores · 1,300+ users · 30 languages (incl. RTL) · featured in Berita Harian |
+| **[HalalSnap](https://halalsnap.org)** | AI halal scanner. Snap any product, get a grounded verdict with per-ingredient reasoning | Both app stores · 1,300+ users · 30 languages (incl. RTL) · [featured in Berita Harian](https://www.beritaharian.sg/singapura/jurutera-perisian-hasilkan-halalsnap-permudah-semakan-status-halal-guna-ai) |
 | **[Kakis](https://kakis.app)** | Pickup futsal for Singapore: find a game, tap in, split the court cost | Empty repo to live in production in 1 day (React/TS/Supabase/Vercel) |
-| **[Kancil](https://getkancil.app)** | Gamified Bahasa Melayu learning for primary schoolers, MOE-syllabus aligned | First commit to both app stores in 10 days |
+| **[Kancil](https://getkancil.app)** | Gamified Bahasa Melayu learning for primary schoolers, MOE-syllabus aligned | First commit to both app stores in 10 days · in review now, [try it in the browser](https://kancil.expo.app) |
 
 *(Product repos are private. They are real businesses with real users. I'm happy to walk through any part of any of them, architecture to eval suites.)*
 
