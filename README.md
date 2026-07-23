@@ -13,7 +13,7 @@ I work at CHART, the Centre for Healthcare Assistive and Robotics Technology at 
 The work, at the level I can talk about publicly:
 
 - Architecture and UI direction for the RMF 2.0 robotics dashboard that nurses, porters and support staff use to work with robot fleets. Built on [Open-RMF](https://www.open-rmf.org/), the open-source multi-fleet orchestration framework running in multiple Singapore hospitals.
-- Initiated a task-orchestration layer above RMF for real ward workflows, beyond my team's scope, and collaborated with Intrinsic (Alphabet's robotics company) on it.
+- Assisted the development of Dynamic Events for Open-RMF, co-developed with Intrinsic (Alphabet's robotics company), and initiated what it led to: VETO, a visual task orchestrator for real ward workflows, driving Dynamic Events from Node-RED flows. That work is public: my team [presented it at ROSCon 2025](https://vimeo.com/1136163298), the Dynamic Events design ran [in the open with Open-RMF's lead](https://discourse.openrobotics.org/t/dynamic-event-632/44547), and the RMF Node-RED nodes are [published for anyone to use](https://flows.nodered.org/node/@chart-sg/node-red-rmf).
 - Co-authored and co-presented RoMi-H, Singapore's healthcare robotics middleware, at ROSCon 2022.
 - Helped deploy a ward robot across 6+ hospital sites during COVID, when it mattered most.
 - Go-to demo lead: ministers, hospital CEOs, overseas delegations.
