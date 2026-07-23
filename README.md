@@ -42,7 +42,7 @@ AI agents write most of my code. What makes it production-grade is the system ar
 - **Device-level proof**: Maestro drives a real phone every release, screenshot proof or it didn't happen
 - **Model routing**: match the model to the task's ambiguity, not its size
 
-This isn't just how I work alone. I led my team's adoption of AI-assisted development and built a Responsible AI Development workshop around the same discipline.
+This isn't just how I work alone. I led my team's adoption of AI-assisted development and built a Responsible AI Development workshop around the same discipline. The workshop deck is public, built as slides-as-code: [responsible-ai-workshop](https://github.com/razilzul/responsible-ai-workshop)
 
 ### Elsewhere
 
