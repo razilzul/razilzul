@@ -22,22 +22,22 @@ None of that can be public code. It is hospital infrastructure and employer IP, 
 
 ### Chapter 3: AI-native (2025 to now)
 
-Outside work I ship consumer AI products solo, end to end.
+Outside work I build personal learning projects with my 10-year-old son, from my own and my family's needs. They are a self-funded learning investment, built on evenings and weekends, and what I learn feeds back into my day job.
 
 | Product | What it is | Receipts |
 |---|---|---|
-| **[HalalSnap](https://halalsnap.org)** | AI halal scanner. Snap any product, get a grounded verdict with per-ingredient reasoning | Both app stores · 1,300+ users · 30 languages (incl. RTL) · [featured in Berita Harian](https://www.beritaharian.sg/singapura/jurutera-perisian-hasilkan-halalsnap-permudah-semakan-status-halal-guna-ai) |
+| **[HalalSnap](https://halalsnap.org)** | AI halal scanner. Snap any product, get a grounded verdict with per-ingredient reasoning | Both app stores · 1,500+ users · 6,000+ scans · 30 languages (incl. RTL) · [featured in Berita Harian](https://www.beritaharian.sg/singapura/jurutera-perisian-hasilkan-halalsnap-permudah-semakan-status-halal-guna-ai) |
 | **[Kakis](https://kakis.app)** | Pickup futsal for Singapore: find a game, tap in, split the court cost | Empty repo to live in production in 1 day (React/TS/Supabase/Vercel) |
-| **[Kancil](https://getkancil.app)** | Gamified Bahasa Melayu learning for primary schoolers, MOE-syllabus aligned | First commit to both app stores in 10 days · in review now, [try it in the browser](https://kancil.expo.app) |
+| **[Kancil](https://getkancil.app)** | Gamified Bahasa Melayu learning for primary schoolers, MOE-syllabus aligned | First commit to both app stores in 10 days · live on both app stores since Sep 2026 · [Berita Harian front page, 17 Oct 2026](https://www.beritaharian.sg/mata-mata/3060249/anak-10-tahun-jadi-bos-bantu-bapa-bangun-aplikasi-belajar-bahasa-melayu) · [try it in the browser](https://kancil.expo.app) |
 
-*(Product repos are private. They are real businesses with real users. I'm happy to walk through any part of any of them, architecture to eval suites.)*
+*(The product repos are private. I'm happy to walk through any part of them, architecture to eval suites.)*
 
 ### How I build
 
 AI agents write most of my code. What makes it production-grade is the system around them:
 
 - **Spec-driven**: every feature starts as a written spec; decisions get locked so future sessions can't relitigate them
-- **Eval harnesses**: golden test sets with trap cases, LLM-as-judge scoring, accuracy as a non-regression gate. I switched my production model on eval evidence and halved scan time. The pattern is public code: [llm-eval-harness](https://github.com/razilzul/llm-eval-harness)
+- **Eval harnesses**: golden test sets with trap cases, LLM-as-judge scoring, accuracy as a non-regression gate. I switched my production model on eval evidence and cut median scan time by about 40% at equal or better quality. The pattern is public code: [llm-eval-harness](https://github.com/razilzul/llm-eval-harness)
 - **Gates everywhere**: typecheck blocks deploys, staging first, production gated behind a human, "verified by LLM" then "verified by me" on the board
 - **Device-level proof**: Maestro drives a real phone every release, screenshot proof or it didn't happen
 - **Model routing**: match the model to the task's ambiguity, not its size
